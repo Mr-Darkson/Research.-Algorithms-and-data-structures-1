@@ -31,7 +31,7 @@ This is one of the fragments of what the program gave us at the output. The prog
 
 Let's put all the data in tables and build graphs. All tests were carried out with measurements in microseconds due to the peculiarities of Java and the convenience of measurements.
 
-![alt text](images/tables_research.jpg)
+![alt text](images/tables_research2.jpg)
 
 As we can see, binary search can lose on large data sizes. This is probably caused by the constant invocation of recursions. And also the need to check each line.
 Exponential and ladder algorithms are among the leaders. Everything is ambiguous here. As for big data, the winner in both tests is a primitive ladder search. However, when working with not very large data, binary and exponential search perform much better.
